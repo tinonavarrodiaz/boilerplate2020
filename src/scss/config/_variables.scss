@@ -1,0 +1,67 @@
+// Typography
+$font-family: "sans-serif";
+
+$body-bg: #fdfdfd;
+$font-color: #222;
+
+$width100: calc(100vw - var(--scrollbar));
+
+:root {
+  --body-bg: #{$body-bg};
+  --font-color: #{$font-color};
+}
+
+:root {
+  --header-height: 3rem;
+
+  @include from(l) {
+    --header-height: 4rem;
+  }
+}
+
+// z-ndex
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+$images-path: "img";
+
+$color-fisrt: #007bdf;
+$color-first-alt: #006dc6;
+$color-second: #00cbff;
+$color-second-alt: #00bff0;
+$color-third: #ff3c32;
+$color-third-alt: #ff2419;
+$color-accent: #fba905;
+$color-accent-alt: #f1a000;
+$color-dark: #282d31;
+$color-dark-alt: #141618;
+$color-border: #eeeef3;
+$color-light: #f6f6f6;
+$color-text: #53575a;
+$color-text-light: #babdbf;
+$color-body-bg: #fcfcfe;
+
+$firstColor: $color-fisrt;
+$firstColorAlt: $color-first-alt;
+$secondColor: $color-second;
+$secondColorAlt: $color-second-alt;
+$thirdColor: $color-third;
+$thirdColorAlt: $color-third-alt;
+$accentColor: $color-accent;
+$accentColorAlt: $color-accent-alt;
+$darkColor: $color-dark;
+$darkColorAlt: $color-dark-alt;
+$borderColor: $color-border;
+$textColor: $color-text;
+$bodyBg: $color-body-bg;
